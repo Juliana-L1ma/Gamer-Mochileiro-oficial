@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gamer Mochileiro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 900px;
+}
+
+/*---------tags para a lateral----------------*/
+.sidenav{
+    height: 100%;
+    background-color:#00425A;
+    overflow-x: hidden;
+}
+#logo{
+    width: 240px;
+    height: 230px;
+    margin-left: 25%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 10px;}
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+}
+
+.login-main-text{
+    margin-top: 10%;
+    padding: 60px;
+    color: #fff;
+    text-shadow: 0.4em 0.4em 0.5em #011218;
+    -webkit-text-stroke-width: 0.1px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+}
+
+/*--------------------tags para o formulário-------------------------*/
+
+.caixa-login{
+height: 370px;
+margin-top: 10%;
+margin-bottom: auto;
+margin-left: 55%;
+width: 400px;
+padding: 20px;
+background-color: rgba(49, 49, 49, 0.5) !important;
+border-radius: 10px;
+}
+
+.caixa-body{
+    margin-top: 2%;
+    margin-left: 3%;
+   text-align: center;
+}
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #00425A;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h2{
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 0.1px; 
+    -webkit-text-stroke-color: #005a7a;
+}
+
+.input-group-prepend span{
+width: 20px;
+padding: 2px;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    padding: 5px;
+    font-family: sans-serif;
+color: white;
+}
+
+.remember input{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login-btn{
+    font-family: "Audiowide", sans-serif;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00425A;
+    margin-left: 36%;
+    width: 100px;
+    padding: 3px;
+}
+.link-login-btn:link{
+    text-decoration: none;
+}
+.login-btn:hover{
+color: black;
+background-color: #1293c2;
+}
+
+.texto-links{
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.link{
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2%;
+}
+
+.link:hover{
+    background-color: #093d50;
+    padding: 5px;
+}
+
+    </style>
+
+</head>
+
+<body background="imagem/asteroides.jpg">
+
+    <main>
+
+        <div class="sidenav">
+            <div class="login-main-text">
+                <h1>Gamer mochileiro</h1>
+                <h3>Logue ou se registre aqui para a sua conta na Gamer Mochileiro!<br><br>Venha ser nosso cliente e aproveite de vantagens e as melhores experiências</h3>
+            </div>
+            <img id="logo" src="imagem/logo.png">
+        </div>
+
+        <div class="container">
+           
+                <div class="caixa-login">
+                    <div class="caixa-body">
+                    <div class="card-header">
+                        <div class="social_icon">
+                            <span><i class="fab fa-facebook-square"><img src="imagem/facebook.png" width="50px"></i></span>
+                            <span><i class="fab fa-google-plus-square"><img src="imagem/google.png" width="50px"></i></span>
+                            <span><i class="fab fa-instagram-square"><img src="imagem/instagram.png" width="50px"></i></span>
+                        </div>
+                        <h2>Entrar</h2>
+                       
+                    </div>
+                   
+                        <form>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="username">
+                                
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="row align-items-center remember">
+                                <input type="checkbox">Remember Me
+                            </div>
+
+                            <div class="form-group">
+                                <a class="link-login-btn" href="index.html"><h3 class="login-btn">Login</h3></a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="texto-links">
+                            <p>Não tem uma conta?</p>
+                            <a class="link" href="#">Criar conta</a><br>
+                            <a class="link" href="#">Esqueceu a senha?</a>
+                        </div> 
+                    </div>
+
+                </div>
+          
+        </div>
+
+    </main>
+</body>
+
+</html>

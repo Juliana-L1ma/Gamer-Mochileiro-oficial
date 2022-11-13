@@ -1,0 +1,980 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+    body{
+        font-size: 100%;
+        background-color:  #131212;
+        min-width: 500px;
+        margin: 0 auto;
+    }
+      
+    /*começa cabeçalho*/
+    
+    /*tags para a barra de pesquisa*/
+    #divBusca{
+        background-color:#ffffff;
+        border:solid 1px;
+        border-radius:5px;
+        width:600px;
+        height: 30px;
+        margin-left: 5px;
+        margin-top: 2%;
+    }
+    
+    #txtBusca{
+      float:left;
+      background-color:transparent;
+      padding-left:5px;
+      font-style:italic;
+      font-size:18px;
+      border:none;
+      height:32px;
+      width:570px;
+     
+    }
+    
+    #btnBusca{
+        height: 25px;
+        width: 25px;
+        
+    }
+    /*---------------------------------------------------------------*/
+    
+    /*tag para o header */
+    header {
+        display:flex;
+        flex-direction: row;
+        align-items:inherit;
+        justify-content: space-evenly;
+        padding: 15px;
+        background-color: #00425A;
+        font-family: sans-serif;
+        color: #ffffff;
+        min-width: 500px;
+    }
+    
+    .logo1{
+       margin-right: 5%;
+       height: 120px;
+       width: 120px;
+       justify-content: space-around;
+    }
+    
+    .img-cabecalho{
+        height: 60px;
+        width: 60px;
+        margin-right: 5%;
+        margin-top: 30%;
+    }
+    /*--------------------------------------------------------------*/
+    
+    /*textos do header*/
+    section.cabecalho-item {
+        min-width: 500px;
+        font-family: sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        flex-direction:row;
+        display:flex;
+        justify-content: space-between;
+        margin-top: 6%;
+        margin-right: 2px;
+        font-weight: bold;
+        min-width: 500px;
+    }
+    
+    .texto-cabecalho:link {
+        text-decoration: none;
+        color: white;
+    }
+       
+    .texto-cabecalho:hover{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: #126786;
+      padding: 10px;
+    }
+    .texto-cabecalho:visited{
+        color: white;
+    }
+    
+    /*termina cabeçalho*/
+    
+    /*-----------------------------------------------------------------*/
+
+    /*----------------------começa o main da página lol---------------*/
+    .lol{
+        margin: 0 auto;
+        position:static;
+    }
+    .inicio-lol{
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        background-color: #106d8f;
+        box-shadow: inset 10px 10px 10px 0px #021e29;
+       
+    }
+    .titulo-lol{
+        color: #ffffff;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: #c5c5c5;
+        font-family: "Audiowide", sans-serif;
+        size: 10px;
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-lol{
+        top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*-------------produtos-----------------*/
+
+    /*começa a primeira caixa de produto*/
+    
+    .caixa-produtos1-lol{
+        background-color: #131212;
+        border: 3px solid rgb(0, 153, 255);
+        border-radius: 5px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin: 4%;
+        min-width: 500px;
+    }
+    .img-produto{
+        padding: 5px;
+        width: 12%;
+        height: 15%;
+        float: left;
+    }
+    .img-banner-lol{
+        width: 530px;
+        height: 330px;
+        margin-right: 8%;
+        margin-top: 2%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+    }
+    .descricao-produto1-lol{
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Audiowide", sans-serif;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: rgb(3, 19, 141);
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        padding-top: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .valor-lol{
+       color: white;
+       background-color: #031f5c;
+    }
+
+    .limpar{
+        clear: both;
+    }
+    /*termina a primeira caixa de produto*/
+
+
+    /*a segunda caixa foi substituída pelo banner do jogo*/
+   
+
+
+         /*começa a terceira caixa de produto*/
+         .caixa-produtos3-lol{
+            background-color: #131212;
+            border: 3px solid rgb(0, 153, 255);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto3-lol{
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(3, 19, 141);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a terceira caixa de produto*/
+
+
+         /*começa a quarta caixa de produto*/
+         .caixa-produtos4-lol{
+            background-color: #131212;
+            border: 3px solid rgb(0, 153, 255);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto4-lol{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(3, 19, 141);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quarta caixa de produto*/
+
+
+         /*começa a quinta caixa de produto*/
+         .caixa-produtos5-lol{
+            background-color: #131212;
+            border: 3px solid rgb(0, 153, 255);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto5-lol{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(3, 19, 141);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quinta caixa de produto*/
+
+
+         /*começa a sexta caixa de produto*/
+         .caixa-produtos6-lol{
+            background-color: #131212;
+            border: 3px solid rgb(0, 153, 255);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto6-lol{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(3, 19, 141);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        } 
+     /*termina a sexta caixa de produto*/
+     /*----------------------termina página lol-----------------------*/
+
+
+     /*----------------------começa o main da página GTA---------------*/
+    .inicio-gta{
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        background-color: #bd4f0f;
+        box-shadow: inset 10px 10px 10px 0px #692c08
+       
+    }
+    .titulo-gta{
+        color: #ffffff;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: #c5c5c5;
+        font-family: "Audiowide", sans-serif;
+        size: 10px;
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-gta{
+        top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*-------------produtos-----------------*/
+
+    /*começa a primeira caixa de produto*/
+    .caixa-produtos1-gta{
+        background-color: #131212;
+        border: 3px solid rgb(255, 145, 0);
+        border-radius: 5px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin: 4%;
+        min-width: 500px;
+    }
+    .img-banner-gta{
+        width: 530px;
+        height: 330px;
+        margin-right: 8%;
+        margin-top: 2%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+    }
+    .img-produto{
+        padding: 5px;
+        width: 12%;
+        height: 15%;
+        float: left;
+    }
+    .anuncio-produto1-gta{
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Audiowide", sans-serif;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: rgb(117, 57, 1);
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        padding-top: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .valor-gta{
+       background-color: #702e02;
+    }
+
+    .limpar{
+        clear: both;
+    }
+    /*termina a primeira caixa de produto*/
+
+
+    /*começa a segunda caixa de produto*/
+    .caixa-produtos2-gta{
+        background-color: #131212;
+        border: 3px solid rgb(255, 145, 0);        
+        border-radius: 5px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin: 4%;
+        min-width: 500px;
+    }
+    .anuncio-produto2-gta{
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Audiowide", sans-serif;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: rgb(117, 57, 1);
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        padding-top: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+     /*termina a segunda caixa de produto*/
+
+
+         /*começa a terceira caixa de produto*/
+         .caixa-produtos3-gta{
+            background-color: #131212;
+            border: 3px solid rgb(255, 145, 0);            
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .anuncio-produto3-gta{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(117, 57, 1);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a terceira caixa de produto*/
+
+
+         /*começa a quarta caixa de produto*/
+         .caixa-produtos4-gta{
+            background-color: #131212;
+            border: 3px solid rgb(255, 145, 0);            
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        
+        .anuncio-produto4-gta{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(117, 57, 1);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quarta caixa de produto*/
+
+
+         /*começa a quinta caixa de produto*/
+         .caixa-produtos5-gta{
+            background-color: #131212;
+            border: 3px solid rgb(255, 145, 0);            
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .anuncio-produto5-gta{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(117, 57, 1);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quinta caixa de produto*/
+
+
+         /*começa a sexta caixa de produto*/
+         .caixa-produtos6-gta{
+            background-color: #131212;
+            border: 3px solid rgb(255, 145, 0);            
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .anuncio-produto6-gta{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(117, 57, 1);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a sexta caixa de produto*/
+     /*--------------termina a página gta-----------*/
+
+     /*--------começa a página MINE--------------*/
+     .inicio-mine{
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        background-color: #0e7a0a;
+        box-shadow: inset 10px 10px 10px 0px #022200;
+       
+    }
+    .titulo-mine{
+        color: #ffffff;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: #2b2b2b;
+        font-family: "Audiowide", sans-serif;
+        size: 10px;
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-mine{
+        top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*-------------produtos-----------------*/
+
+    /*começa a primeira caixa de produto*/
+    
+    .caixa-produtos1-mine{
+        background-color: #131212;
+        border: 3px solid #0e7a0a;
+        border-radius: 5px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin: 4%;
+        min-width: 500px;
+    }
+    .img-banner-mine{
+        width: 530px;
+        height: 330px;
+        margin-right: 8%;
+        margin-top: 2%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+    }
+    .img-produto{
+        padding: 5px;
+        width: 12%;
+        height: 15%;
+        float: left;
+    }
+    .descricao-produto1-mine{
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Audiowide", sans-serif;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: rgb(23, 68, 2);
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        padding-top: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .valor-mine{
+       color: white;
+       background-color: rgb(23, 68, 2);
+    }
+
+    .limpar{
+        clear: both;
+    }
+    /*termina a primeira caixa de produto*/
+
+
+    /*segunda caixa foi substituída pelo banner do jogo
+
+
+         /*começa a terceira caixa de produto*/
+         .caixa-produtos3-mine{
+            background-color: #131212;
+            border: 3px solid #0e7a0a;
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto3-mine{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(23, 68, 2);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a terceira caixa de produto*/
+
+
+         /*começa a quarta caixa de produto*/
+         .caixa-produtos4-mine{
+            background-color: #131212;
+            border: 3px solid #0e7a0a;
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto4-mine{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(23, 68, 2);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quarta caixa de produto*/
+
+
+         /*começa a quinta caixa de produto*/
+         .caixa-produtos5-mine{
+            background-color: #131212;
+            border: 3px solid #0e7a0a;
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto5-mine{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(23, 68, 2);            
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quinta caixa de produto*/
+
+
+         /*começa a sexta caixa de produto*/
+         .caixa-produtos6-mine{
+            background-color: #131212;
+            border: 3px solid #0e7a0a;
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto6-mine{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(23, 68, 2);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        } 
+     /*termina a sexta caixa de produto*/
+     /*----------------------termina página MINE-----------------------*/
+
+      /*----------------------começa o main da página BATMAN---------------*/
+      .inicio-batman{
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        background-color: #830f0f;
+        box-shadow: inset 10px 10px 10px 0px #3a0303;
+       
+    }
+    .titulo-batman{
+        color: #ffffff;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: #0000;
+        font-family: "Audiowide", sans-serif;
+        size: 10px;
+        left: 5%;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-batman{
+        top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*-------------produtos-----------------*/
+
+    /*começa a primeira caixa de produto*/
+    
+    .caixa-produtos1-batman{
+        background-color: #131212;
+        border: 3px solid rgb(184, 10, 10);
+        border-radius: 5px;
+        padding: 15px;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin: 4%;
+        min-width: 500px;
+    }
+    .img-produto{
+        padding: 5px;
+        width: 200px;
+        height: 250px;
+        float: left;
+    }
+    .img-banner-batman{
+        width: 530px;
+        height: 330px;
+        margin-right: 8%;
+        margin-top: 2%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+    }
+    .descricao-produto1-batman{
+        cursor: pointer;
+        color: #ffffff;
+        font-family: "Audiowide", sans-serif;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: rgb(184, 10, 10);
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        padding-top: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .valor-batman{
+       color: white;
+       background-color: rgb(184, 10, 10);
+    }
+
+    .limpar{
+        clear: both;
+    }
+    /*termina a primeira caixa de produto*/
+
+
+    /*a segunda caixa foi substituída pelo banner do jogo*/
+   
+
+
+         /*começa a terceira caixa de produto*/
+         .caixa-produtos3-batman{
+            background-color: #131212;
+            border: 3px solid rgb(184, 10, 10);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto3-batman{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(184, 10, 10);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a terceira caixa de produto*/
+
+
+         /*começa a quarta caixa de produto*/
+         .caixa-produtos4-batman{
+            background-color: #131212;
+            border: 3px solid rgb(184, 10, 10);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto4-batman{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(184, 10, 10);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quarta caixa de produto*/
+
+
+         /*começa a quinta caixa de produto*/
+         .caixa-produtos5-batman{
+            background-color: #131212;
+            border: 3px solid rgb(184, 10, 10);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto5-batman{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(184, 10, 10);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        }
+     /*termina a quinta caixa de produto*/
+
+
+         /*começa a sexta caixa de produto*/
+         .caixa-produtos6-batman{
+            background-color: #131212;
+            border: 3px solid rgb(184, 10, 10);
+            border-radius: 5px;
+            padding: 15px;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            margin: 4%;
+            min-width: 500px;
+        }
+        .descricao-produto6-batman{
+            cursor: pointer;
+            color: #ffffff;
+            font-family: "Audiowide", sans-serif;
+            -webkit-text-stroke-width: 0.1px; 
+            -webkit-text-stroke-color: rgb(184, 10, 10);
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            padding-top: 25px;
+            text-align: center;
+            margin: 0 auto;
+        } 
+     /*termina a sexta caixa de produto*/
+     /*----------------------termina página Batman-----------------------*/
+
+    /*começa o footer*/
+    .conteudo-rodape{
+        color: #ffffff;
+        font-family: sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        min-width: 500px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .texto-footer:link {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+       
+    .texto-footer:hover{
+      text-decoration: none;
+      background-color: #126786;
+      cursor: pointer;
+    }
+    .texto-footer:visited{
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+   #footer{
+        margin-top: 10%;
+        padding: 90px;
+        background-color: #00425A;
+        color: #ffffff;
+        text-align: justify;
+        justify-content: space-between;
+        min-width: 500px;
+    }
