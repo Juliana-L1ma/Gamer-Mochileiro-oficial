@@ -173,7 +173,7 @@
    /*fim do carrossel do banner*/
     
    .anuncio1{
-    background-color: blueviolet;
+    background-color: #8a2be2;
     box-shadow: inset 10px 10px 10px 0px #55017c;
     display: flex;
     flex-direction: row;
@@ -225,8 +225,8 @@
         text-align: center;
     }
     .produto:hover{
-        padding: 5px;
         cursor: pointer;
+        padding: 5px;
     }
     .valor-home{
        background-color: rgb(11, 11, 121);
@@ -287,9 +287,9 @@
         text-align: center;
         padding: 20px;
         justify-items: center;
-        font-size: 20px;
+        font-size: 25px;
         font-family: "Audiowide", sans-serif;
-        margin-left: 40%;
+        margin-left: 38%;
         margin-top: -80%;
         animation: animate 1s linear infinite;
     }
